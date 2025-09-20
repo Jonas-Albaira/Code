@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@jonas-assessment/auth": ["libs/auth/src/index.ts"],
+      "@jonas-assessment/data": ["libs/data/src/index.ts"],
+      "@jonas-assessment/libs": ["libs/src/index.ts"],
+      "@secure-task-manager/auth": ["libs/auth/src/index.ts"],
+      "@secure-task-manager/data": ["libs/data/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

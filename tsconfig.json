@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@secure-task-manager/data": ["libs/data/src/index.ts"],
+      "@secure-task-manager/auth": ["libs/auth/src/index.ts"]
+    }
+  }
+}
