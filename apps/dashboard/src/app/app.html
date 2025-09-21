@@ -1,2 +1,11 @@
-<app-nx-welcome></app-nx-welcome>
-<router-outlet></router-outlet>
+<app-root>
+  <h1>Dashboard</h1>
+
+  <!-- Navigation -->
+  <nav>
+    <a routerLink="/tasks">Tasks</a>
+  </nav>
+
+  <!-- Where routed components will render -->
+  <router-outlet></router-outlet>
+</app-root>

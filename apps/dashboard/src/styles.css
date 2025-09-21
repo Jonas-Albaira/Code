@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button { padding: 6px 10px; border: 1px solid #e5e7eb; background: #f9fafb; border-radius: 6px; cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+table select { padding: 4px 6px; }
